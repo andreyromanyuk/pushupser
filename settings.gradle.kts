@@ -1,3 +1,9 @@
+enableFeaturePreview("VERSION_CATALOGS")
+
+rootProject.name = "Pushupser"
+include(":androidApp")
+include(":shared")
+
 pluginManagement {
     repositories {
         google()
@@ -6,6 +12,9 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Pushupser"
-include(":androidApp")
-include(":shared")
+dependencyResolutionManagement {
+    versionCatalogs {
+        l
+    }
+}
+
